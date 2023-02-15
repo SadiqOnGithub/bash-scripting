@@ -44,7 +44,7 @@ do
             echo "this is name: ${name}"
             echo "this is ext: ${ext}"
             echo "this is file: ${file}"
-            # mv "${file}" "${dst_dir}/civil_eng/${filename}.pdf"
+            mv "${file}" "./Civil_Engin/${filename}.pdf"
         # elif pdftotext "${file}" - | grep -qi "mechanical engineering"
         # then
         #     # Move the file to the mechanical engineering directory

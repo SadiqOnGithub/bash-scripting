@@ -1,5 +1,3 @@
-
-
 # docAndDocxSort
 	don't forget to change permission before running
 	`chmod +x docAndDocxSort.sh`
@@ -11,3 +9,16 @@
 -pandoc is taking all the packages of the universe to run.
 
 docAndDocxSort is working fine. Done. Alhamdulillah.
+
+
+# searchAndSort.sh
+
+A simple way to search and sort CV. Alhamdulillah.
+
+
+# bash command learning
+
+iterate over current dir files
+	`for file in *;`   -- hidden files included
+	`for file in ./*;`   -- hidden files excluded  |  NOT Preferred
+
